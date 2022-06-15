@@ -18,7 +18,7 @@ from memory_profiler import profile
 # Load a set of optimized intertemproal release policies
 # See previous posts on the "Lake Problem" to understand how these pollution
 # policies were generated.
-release_decisions = np.loadtxt('./Intertemporal.resultfile', delimiter = ' ')
+release_decisions = np.loadtxt('./optimized_intertemporal_pollution_policy_data.resultfile', delimiter = ' ')
 
 # Remove objective scores
 release_decisions = release_decisions[:,0:100]
